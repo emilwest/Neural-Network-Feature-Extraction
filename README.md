@@ -9,10 +9,8 @@ Image Recognition using a convolutional base from VGG-16, extracting features fr
 In this study, we decided to do image recognition on the celebrity data set [[1]](#1) by training neural networks to classify an image as male or female.
 We trained various NN:s using the convolutional base from VGG-16 [[2]](#2), extracted features from all the dense layers in our final model, trained LASSO- and random forest models based on those extracted features to see if we could beat our best performed network, or if we could see something interesting with this approach.
 
-Our results indicate that the LASSO and random forest models with its input features extracted from our trained neural network have very similar performance on the test data as our trained neural network, around 89%. The model that had the highest accuracy on the test set
-was the trained LASSO based on 500 extracted features. It had 89.62% accuracy while the NN
-had 89.23%. The best random forest with 100 features achieved 89.25% accuracy which is only
-0.02% better than the NN. However we cannot conclude with certainty that one model is better
+Our results indicate that the LASSO and random forest models with its input features extracted from our trained neural network have very similar performance on the test data as our trained neural network, around 89%. The best random forest with 20 features achieved 89.7% accuracy which is only
+0.10% better than the NN (89.6%). However we cannot conclude with certainty that one model is better
 than the other. Our NN was trained with data augmentation, which randomly transforms the
 images, therefore these results will change each time the NN is re-trained. However in general
 we can expect accuracies around 89%.
