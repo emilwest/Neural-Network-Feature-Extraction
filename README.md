@@ -15,6 +15,8 @@ Image Recognition using a convolutional base from VGG-16, extracting features fr
 
 ## Data
 
+![alt text](all_pics/overview.png "Picture source: Liu et. al. 2015: http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html ")
+
 - 202 599 images
 - 40 binary attributes, e.g. male, glasses, beard.
 - We used 8000 images, 1 binary class (male)
@@ -30,10 +32,12 @@ Based on our classification task we used:
 
 
 - Baseline NN model: one dense layer of 20 units
-insert pic
+
+![alt text](all_pics/baseline_NN.png)
 
 - Final NN model:
-insert pic
+
+![alt text](all_pics/complex_NN.png)
 
 
 -  Trained different LASSO- and random forest models for
@@ -43,12 +47,12 @@ cross validation
 
 ## Loss and Accuracy levels
 
-insert pic
+![alt text](all_pics/loss.png)
 
 
 ## Results
 
-insert table
+![alt text](all_pics/table.png)
 
 
 ## Discussion
@@ -75,3 +79,15 @@ Image Recognition. arXiv e-prints, art. arXiv:1409.1556, Sep 2014
 <a id="3">[3]</a> 
 J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei. ImageNet: A Large-Scale Hierarchical
 Image Database. In CVPR09, 2009.
+
+
+## Appendix
+Confusion matrices where the rows represent actual values, the columns represent the predicted values. 0=female, 1=male.
+
+#### Confusion matrix for Neural Network:
+
+![alt text](all_pics/conf_nn.png)
+
+#### Confusion matrix for Machine Learning models using features from extracted layers:
+
+![alt text](all_pics/conf_ml.png)
