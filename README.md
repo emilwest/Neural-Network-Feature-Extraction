@@ -1,4 +1,4 @@
-![alt text](https://github.com/emilwest/Neural-Network-Feature-Extraction/tree/main/all_pics/intro.png)
+![alt text](tree/main/all_pics/intro.png)
 
 # Neural-Network-Feature-Extraction
 Image Recognition using a convolutional base from VGG-16, extracting features from final layers as input for LASSO and Random Forest algorithms. 
