@@ -1,4 +1,4 @@
-![alt text](all_pics/intro.png)
+![alt text](all_pics/intro.png "Picture source: Liu et. al. 2015: http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html ")
 
 # Neural-Network-Feature-Extraction
 Image Recognition using a convolutional base from VGG-16, extracting features from final layers as input for LASSO and Random Forest algorithms. 
