@@ -62,5 +62,16 @@ insert table
 - Used different convolutional bases and/or used different data
 
 
+## References
+<a id="1">[1]</a> 
+Ziwei Liu, Ping Luo, Xiaogang Wang, and Xiaoou Tang. Deep learning face attributes in the
+wild. In Proceedings of International Conference on Computer Vision (ICCV), December 2015.
+http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html.
 
+<a id="2">[2]</a> 
+Karen Simonyan and Andrew Zisserman. Very Deep Convolutional Networks for Large-Scale
+Image Recognition. arXiv e-prints, art. arXiv:1409.1556, Sep 2014
 
+<a id="3">[3]</a> 
+J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei. ImageNet: A Large-Scale Hierarchical
+Image Database. In CVPR09, 2009.
