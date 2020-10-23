@@ -3,8 +3,7 @@
 # Neural-Network-Feature-Extraction
 Image Recognition using a convolutional base from VGG-16, extracting features from final layers as input for LASSO and Random Forest algorithms. 
 
-> Authors: Emil Westin, Hongru Zhai, Christoffer Eriksson (2020)
-> Department of Statistics, Uppsala University
+> Authors: Emil Westin, Hongru Zhai, Christoffer Eriksson (2020). Department of Statistics, Uppsala University
 
 ## Abstract
 In this study, we decided to do image recognition on the celebrity data set [[1]](#1) by training neural networks to classify an image as male or female.
